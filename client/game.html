@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game | Madlibs!</title>
+  </head>
+
+  <body>
+    <h1> MadLibs 2.0 </h1>
+    <form action="/madlib" method="POST">
+        <!-- Name input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+    
+        <!-- Color input -->
+        <label for="color">Color:</label>
+        <input type="text" id="color" name="color" required>
+        <br>
+    
+        <!-- Noun dropdown -->
+        <label for="noun">Noun:</label>
+        <select id="noun" name="noun">
+            <option value="man">Man</option>
+            <option value="woman">Woman</option>
+        </select>
+
+        <!-- Adjective dropdown -->
+        <br>
+
+        <label for="name-input">Adjective: </label>
+        <input id="name-input" type="text" name="adjective" />
+
+        <br>
+
+        <!-- Submit button -->
+        <button type="submit"> MadLibs!</button>
+            
+    </form>
+    
+  </body>
+</html>
